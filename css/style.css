@@ -47,10 +47,10 @@ body {
 /* Animación de brillo */
 @keyframes glow {
     0% {
-        text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #f00, 0 0 30px #f00;
+        text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px rgb(238, 255, 0), 0 0 30px rgb(238, 255, 0);
     }
     100% {
-        text-shadow: 0 0 20px #fff, 0 0 30px #ff4d4d, 0 0 40px #ff6666, 0 0 50px #ff9999;
+        text-shadow: 0 0 20px #fff, 0 0 30px #fffc4d, 0 0 40px #f4f800, 0 0 50px #f7fc00;
     }
 }
 
